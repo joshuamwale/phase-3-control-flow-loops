@@ -1,7 +1,7 @@
 def happy_new_year
   counter = 10
-  while counter > 0
-    puts "counter"
+  while counter >= 0
+    puts counter
     counter -=1
     puts "Happy New Year!"
 end
@@ -29,3 +29,5 @@ def reverse_string(str)
   puts ""
   puts "i is: #{i}"
 end
+end
+
